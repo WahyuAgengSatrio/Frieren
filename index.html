@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Sasya</title>
+    <!-- Tambahkan link ke file CSS Bootstrap (gunakan versi yang sesuai) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=AnimeFont&display=swap">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+<!-- Navbar menggunakan kelas Bootstrap -->
+<nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container-fluid">
+        <!-- Ganti path/to/Sōsō_no_Frieren_logo.png dengan path yang benar -->
+        <a class="navbar-brand" href="#"><img src="Asset/Sōsō_no_Frieren_logo.png" alt="Logo" height="60"></a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    <video id="video-background" autoplay muted loop>
+        <source src="Asset/frieren-starry-night-flower-field-moewalls-com.mp4" type="video/mp4">
+        Maaf, browser Anda tidak mendukung tag video.
+    </video>
+
+    <div id="content">
+        <h1 class="display-4 text-white">Welcome</h1>
+        <p class="lead text-white"></p>
+    </div>
+
+    <div class="star"></div>
+    <div class="star" style="animation-delay: 0.2s;"></div>
+    <div class="star" style="animation-delay: 0.2s;"></div>
+    <div class="star" style="animation-delay: 0.2s;"></div>
+    <div class="star" style="animation-delay: 0.2s;"></div>
+    <div class="star" style="animation-delay: 0s;"></div>
+    <div class="star" style="animation-delay: 0.2s;"></div>
+    <div class="star" style="animation-delay: 0.2s;"></div>
+    <div class="star" style="animation-delay: 0.2s;"></div>
+    <div class="star" style="animation-delay: 0.2s;"></div>
+    <div class="star" style="animation-delay: 0.2s;"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const content = document.getElementById('content');
+            content.style.opacity = 1;
+        });
+    </script>
+
+</body>
+</html>
